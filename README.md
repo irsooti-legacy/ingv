@@ -18,3 +18,7 @@ In order to use advanced filter, I use a a default filter - that you can modify 
 "format" => "text",
 "limit" => 100
 ```
+
+## Use this API
+
+You can pass all parameter as you want directly here: https://ingv-json.herokuapp.com/
