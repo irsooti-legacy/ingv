@@ -125,6 +125,7 @@ $HQ_final = [
 
 // It's supposed we need this in json, then I set an appropriate header
 header('Content-Type: application/json');
+header("Access-Control-Allow-Origin: *");
 
 // Printed and ready to use!
 echo json_encode($HQ_final, JSON_PRETTY_PRINT);
